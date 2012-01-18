@@ -1,5 +1,7 @@
 set nocompatible
 
+call pathogen#infect()
+
 set laststatus=2 "mostrar la ultima linea
 set tabstop=4 
 set shiftwidth=4
