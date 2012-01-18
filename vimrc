@@ -14,11 +14,17 @@ set number
 set incsearch "resaltar texto al escribir la busqueda
 
 syntax on
-filetype plugin on
+filetype plugin indent on
 
 " Colorear linea actual
 set cul
 hi CursorLine term=none cterm=none ctermbg=7 
+
+"vim-powerline
+set t_Co=256
+set timeoutlen=250 "evitar delay al presionar Esc
+set encoding=utf-8
+let g:Powerline_symbols = 'fancy'
 
 map <silent> <F2> :%!xmllint -format -<CR>
 " File explorer
