@@ -20,14 +20,13 @@ filetype plugin indent on
 set cul
 hi CursorLine term=none cterm=none ctermbg=7 
 
-"vim-powerline
+" vim-powerline
 set t_Co=256
 set timeoutlen=250 "evitar delay al presionar Esc
 set encoding=utf-8
 let g:Powerline_symbols = 'fancy'
 
 map <silent> <F2> :%!xmllint -format -<CR>
-" File explorer
-map <silent> <F9> :Explore<CR>
-map <silent> <S-F9> :Sexplore<CR>
+" NERDTree
+map <silent> <F9> :NERDTreeToggle<CR>
 
