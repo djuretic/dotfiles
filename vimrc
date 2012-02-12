@@ -16,6 +16,8 @@ set incsearch "resaltar texto al escribir la busqueda
 syntax on
 filetype plugin indent on
 
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+
 " Colorear linea actual
 set cul
 hi CursorLine term=none cterm=none ctermbg=7 
