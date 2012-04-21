@@ -12,6 +12,7 @@ set showcmd "mostrar teclas
 set number
 
 set incsearch "resaltar texto al escribir la busqueda
+set hidden
 
 syntax on
 filetype plugin indent on
