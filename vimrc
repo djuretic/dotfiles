@@ -18,6 +18,7 @@ syntax on
 filetype plugin indent on
 
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+autocmd Filetype haml setlocal ts=2 sts=2 sw=2
 
 " Colorear linea actual
 set cul
